@@ -1,0 +1,158 @@
+.postcmtcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.postcontent {
+  width: 820px;
+  height: 449px;
+  background-color: #efefefa1;
+  padding: 30px;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.postcontent h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.twoblock {
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.twoblock input {
+  width: 300px;
+  padding: 10px;
+  font-family: Raleway;
+  font-size: 18px;
+  /* border: 1px solid black; */
+}
+
+.oneblock {
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 10px;
+}
+.oneblock textarea {
+  width: 100%;
+  height: 150px;
+  font-family: Raleway;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.postcontent form button {
+  width: 250px;
+  height: 50px;
+  margin-left: 10px;
+  border: none;
+  background: #560af7;
+  border-radius: 10px;
+  font-family: Raleway;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 20px;
+  line-height: 33px;
+  color: #ffffff;
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+
+.twoblock input::placeholder {
+  font-family: Raleway;
+  font-size: 18px;
+  /* padding-left: 20px; */
+  padding-top: 10px;
+}
+.oneblock textarea::placeholder {
+  font-family: Raleway;
+  font-size: 18px;
+}
+
+.postcontent form button:hover {
+  transform: scale(1.01);
+  /* box-shadow: 0px 0px 8px 3px #4295f5; */
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .postcontent {
+    width: 650px;
+    /* height: 400px; */
+  }
+
+  .postcontent h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .twoblock {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .twoblock input {
+    width: 250px;
+    /* padding: 10px; */
+  }
+
+  .oneblock {
+    width: 100%;
+    padding: 15px;
+  }
+  .oneblock textarea {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .postcontent {
+    width: 400px;
+    /* height: 400px; */
+  }
+
+  .postcontent h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .twoblock {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .twoblock input {
+    width: 250px;
+    /* padding: 10px; */
+    margin: 10px 0;
+  }
+
+  .oneblock {
+    width: 100%;
+    padding: 15px;
+  }
+  .oneblock textarea {
+    width: 100%;
+    height: 150px;
+  }
+  .postcontent form button {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,141 @@
+.addbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.bar {
+  width: 1279px;
+  height: 170px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.content .icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.content .icon i {
+  font-size: 50px;
+  /* background-color: blue; */
+}
+.adddetails {
+  padding: 20px;
+  /* margin-right: 180px; */
+  border-right: 2px solid black;
+  padding-right: 75px;
+  border-spacing: 15px 50px;
+}
+
+.adddetails h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.adddetails h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.nobor {
+  border: none;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .addbar {
+    height: 200px;
+  }
+  .bar {
+    width: 650px;
+    height: 120px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .content .icon i {
+    font-size: 20px;
+    /* background-color: blue; */
+  }
+  .adddetails {
+    padding-left: 10px;
+    padding-right: 20px;
+    border: none;
+  }
+
+  .adddetails h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .adddetails h5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .addbar {
+    height: 350px;
+  }
+  .bar {
+    width: 315px;
+    height: 300px;
+    justify-content: center;
+    align-items: start;
+    padding: 50px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .content .icon i {
+    font-size: 20px;
+    /* background-color: blue; */
+  }
+  .adddetails {
+    padding-left: 10px;
+    padding-right: 20px;
+    border: none;
+  }
+
+  .adddetails h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .adddetails h5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,169 @@
+.treatshot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.treatshotcontainer {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.treatshotinfo {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.treatshot h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.treatshot h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 83px;
+}
+
+.treatshot p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 115%;
+  text-align: justify;
+}
+
+.treatshotfaq {
+  width: 40%;
+  padding: 20px;
+  /* background-color: aqua; */
+}
+
+.treatshotfaq h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 83px;
+}
+
+.treatshotfaq ul {
+  list-style: none;
+}
+
+.treatshotfaq ul li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+.treatshotfaq ul li:hover {
+  color: #560af6;
+}
+@media (max-width: 768px) {
+  .treatshotcontainer {
+    width: 800px;
+    padding: 20px;
+  }
+
+  .treatshotinfo {
+    width: 50%;
+    padding: 20px;
+    /* background-color: aqua; */
+  }
+
+  .treatshotfaq {
+    width: 50%;
+    padding: 20px;
+    /* background-color: aqua; */
+  }
+
+  .treatshot h6 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .treatshot h1 {
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 10px;
+  }
+
+  .treatshot p {
+    font-size: 18px;
+    line-height: 115%;
+  }
+
+  .treatshotfaq h3 {
+    font-size: 52px;
+    line-height: 83px;
+  }
+
+  .treatshotfaq ul li {
+    font-size: 28px;
+    line-height: 25px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .treatshotcontainer {
+    width: 400px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .treatshotinfo {
+    width: 100%;
+    padding: 20px;
+    /* background-color: aqua; */
+  }
+
+  .treatshotfaq {
+    width: 100%;
+    padding: 20px;
+    /* background-color: aqua; */
+  }
+
+  .treatshot h6 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .treatshot h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .treatshot p {
+    font-size: 14px;
+    line-height: 115%;
+  }
+
+  .treatshotfaq h3 {
+    font-size: 30px;
+    line-height: 83px;
+  }
+
+  .treatshotfaq ul li {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;
+  }
+}

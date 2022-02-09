@@ -1,0 +1,117 @@
+.Bcard {
+  width: 430px;
+  height: 580px;
+  background: #ffffff;
+  box-shadow: 0px 4px 48px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.blogimg .bimg {
+  margin-top: 0;
+  width: 380px;
+  height: 250px;
+  filter: drop-shadow(0px 0px 21px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+}
+
+.bdetails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+}
+
+.bdetails h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6c6c6c;
+}
+
+.btitle h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 20px;
+}
+.binfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.binfo h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+}
+.binfo h5:hover {
+  color: #560af6;
+  border-bottom: 2px solid #560af6;
+}
+
+@media (max-width: 768px) {
+  .Bcard {
+    width: 380px;
+    height: 480px;
+    padding: 30px;
+  }
+  .blogimg .bimg {
+    width: 350px;
+    height: 200px;
+  }
+  .bdetails h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .btitle h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .binfo h5 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Bcard {
+    width: 330px;
+    height: 400px;
+    padding: 30px;
+  }
+  .blogimg .bimg {
+    width: 300px;
+    height: 150px;
+  }
+  .bdetails h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btitle h1 {
+    margin-top: 12px;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .binfo h5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

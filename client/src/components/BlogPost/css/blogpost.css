@@ -1,0 +1,144 @@
+.bpcontents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.bpmatter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1111px;
+  background: #ffffff;
+  padding: 50px;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.25);
+}
+
+.blgimg {
+  /* width: 100%; */
+  height: 490px;
+}
+
+.blginfo {
+  width: 100%;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.blgdetails {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  margin-bottom: 30px;
+}
+
+.blgdetails h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6c6c6c;
+}
+
+.blginfo h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  margin-bottom: 30px;
+}
+
+.blginfo p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .bpmatter {
+    width: 650px;
+    padding: 30px;
+  }
+
+  .blgimg {
+    /* width: 100%; */
+    height: 300px;
+  }
+
+  .blginfo {
+    padding: 30px;
+    padding-top: 10px;
+  }
+
+  .blgdetails {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .blgdetails h6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .blginfo h1 {
+    font-size: 38px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .blginfo p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bpmatter {
+    width: 360px;
+    padding: 10px;
+  }
+
+  .blgimg {
+    /* width: 100%; */
+    height: 180px;
+  }
+
+  .blginfo {
+    padding: 10px;
+    /* padding-top: 10px; */
+  }
+
+  .blgdetails {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .blgdetails h6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .blginfo h1 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .blginfo p {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+  }
+}

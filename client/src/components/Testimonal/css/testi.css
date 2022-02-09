@@ -1,0 +1,89 @@
+.testcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.testheading {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.testheading h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+}
+.testheading h6 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: 0.23em;
+}
+.slider {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  /* padding: 40px; */
+  /* background-color: aqua; */
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .testheading {
+    margin-bottom: 20px;
+  }
+  .testheading h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .testheading h6 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.23em;
+  }
+  .slider {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .testheading {
+    margin-bottom: 20px;
+  }
+  .testheading h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .testheading h6 {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+  }
+  .slider {
+    width: 90%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}

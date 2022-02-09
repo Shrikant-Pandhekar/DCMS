@@ -1,0 +1,13 @@
+.styleTesti {
+  padding: 20px;
+}
+.test {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  background: transparent;
+}
+
+.cardSize {
+  width: 500px;
+}

@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@300;500&family=Raleway:wght@500;700&display=swap");
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  background-color: #4295f5;
+}
+
+.fcontainer {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper .footer-widget {
+  width: calc(20% - 30px);
+  margin: 0 15px 50px;
+  padding: 0 12px;
+}
+
+.wrapper .footer-widget:nth-child(1) {
+  width: calc(40% - 50px);
+  margin-right: 15px;
+}
+.logodetails {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logodetails h2 {
+  margin-left: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+.wrapper .footer-widget .logo {
+  width: 77px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  border-radius: 45px;
+}
+
+.wrapper .footer-widget p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper .footer-widget h6 {
+  margin: 10px 0 35px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper .footer-widget .links li {
+  list-style: none;
+}
+
+.wrapper .footer-widget .links li a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 32px;
+  transition: all 0.3s ease-out;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper .footer-widget .links li a:hover {
+  margin-left: 10px;
+  color: #050505;
+}
+
+.footer-widget .subform {
+  width: 300px;
+}
+.footer-widget h1 {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-widget pre {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-widget .subform input {
+  width: 100%;
+  height: 52px;
+  margin-bottom: 20px;
+  border: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: normal;
+}
+.footer-widget .subform input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  padding-left: 20px;
+  font-weight: 300;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 86.88%;
+  letter-spacing: 0.07em;
+  color: rgba(59, 57, 57, 0.781);
+}
+.footer-widget .subform button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  /* background-color: #560af6; */
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(86, 50, 247, 0.952);
+  background: #9570e3;
+  /* box-shadow: 0px 4px 4px #560AF7; */
+}
+.bottomline {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #560af6;
+}
+.bottomline p {
+  color: #ffffff;
+  letter-spacing: 3px;
+  /* font-weight: 300; */
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Let's write the media query */
+@media (max-width: 768px) {
+  .fcontainer {
+    max-width: 960px;
+  }
+
+  .wrapper .footer-widget,
+  .wrapper .footer-widget:nth-child(1) {
+    width: calc(50% - 30px);
+  }
+  .footer-widget .subform {
+    width: 200px;
+  }
+
+  .bottomline p {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .fcontainer {
+    max-width: 720px;
+  }
+
+  .wrapper .footer-widget,
+  .wrapper .footer-widget:nth-child(1) {
+    width: 100%;
+    margin: 0 10px 50px;
+  }
+  .footer-widget .subform {
+    width: 200px;
+  }
+  .bottomline p {
+    letter-spacing: 0px;
+    font-size: 12px;
+  }
+}

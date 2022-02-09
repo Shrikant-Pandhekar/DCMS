@@ -1,0 +1,5 @@
+*.zip
+*.docx
+*.doc
+/client/node_modules/
+/server/node_modules/

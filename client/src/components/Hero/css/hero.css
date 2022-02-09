@@ -1,0 +1,155 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* padding: 40px; */
+  margin-top: 100px;
+}
+.info {
+  display: flex;
+  /* background-color: aqua; */
+  flex-direction: column;
+  width: 500px;
+}
+.info h4 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.07em;
+}
+.info h2 {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.info h1 {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+}
+
+.info p {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.07em;
+}
+
+.appButton {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.appButton button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #560af7;
+  box-shadow: 0px 0px 8px 1px #4295f5;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appButton button:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 8px 3px #4295f5;
+}
+
+.appButton button .fa {
+  color: #fff;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 868px) {
+  .container {
+    flex-direction: column;
+  }
+  .info {
+    width: 500px;
+  }
+  .info h4 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .info h2 {
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .info h1 {
+    font-size: 54px;
+    line-height: 66px;
+  }
+
+  .info p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .appButton {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .doc img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    flex-direction: column;
+  }
+  .info {
+    width: 350px;
+  }
+  .info h4 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .info h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .info h1 {
+    font-size: 50px;
+    line-height: 66px;
+  }
+
+  .info p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .appButton {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .doc img {
+    width: 350px;
+  }
+}

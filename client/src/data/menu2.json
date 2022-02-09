@@ -1,0 +1,44 @@
+[
+  {
+    "groupname": " ",
+    "id": 1,
+    "uuid": "433b8a76-88c5-11ea-bc55-0242ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Dashboard ",
+        "icon": "fa fa-home",
+        "to": "/user/dashboard",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Profile ",
+        "icon": "fa fa-user",
+        "to": "/user/profile",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Make Appointment",
+        "icon": "fa fa-calendar-plus-o",
+        "to": "/user/makeappointment",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "View Appointments",
+        "icon": "fa fa-list",
+        "to": "/user/appointments",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Post Question ",
+        "icon": "fa fa-question-circle",
+        "to": "/user/question",
+        "children": false
+      }
+    ]
+  }
+]

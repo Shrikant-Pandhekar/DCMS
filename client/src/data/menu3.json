@@ -1,0 +1,23 @@
+[
+  {
+    "groupname": " ",
+    "id": 1,
+    "uuid": "433b8a76-88c5-11ea-bc55-0242ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Dashboard ",
+        "icon": "fa fa-home",
+        "to": "/receptionist/dashboard",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Patient ",
+        "icon": "fa fa-user",
+        "to": "/receptionist/patient",
+        "children": false
+      }
+    ]
+  }
+]

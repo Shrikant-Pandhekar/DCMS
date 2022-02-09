@@ -1,0 +1,74 @@
+
+@mixin settings-group-nav-action {
+    border-left: 3px solid $primary !important;
+  }
+
+.settings-group{
+    margin-top: -10px !important;
+    margin-bottom: 10px !important;
+    .list-group-item{
+        @extend .d-flex;
+        @extend .justify-content-between;
+        @extend .align-items-center;
+        @extend .list-group-item-action;
+        @extend [role="button"];
+        border: none;
+        border-left: 3px solid transparent !important;
+        &:hover{
+            @include settings-group-nav-action; 
+        }
+        &:active{
+            @include settings-group-nav-action; 
+        }
+        &:focus{
+            @include settings-group-nav-action; 
+        }
+        &.active{
+            @include settings-group-nav-action; 
+            color: #495057 !important;
+            background-color: #f8f9fa !important;
+        }
+        &.create-item{
+            color: #f8f9fa !important;
+            border-left: 3px solid transparent !important;
+            text-align: center;
+            &:hover{
+                background-color: #f8f9fa !important;
+            }
+        }
+
+        div.dropdown{
+            @extend .badge;
+
+
+
+            button{
+                background-color: transparent !important;
+                color: $primary !important;
+                z-index: 3;
+                border: none;
+                padding: 2px 12px;
+                margin: 0;
+
+                &:hover{
+                    border: none;
+                }
+                &:focus{
+                    border: none;
+                }
+                &:active{
+                    border: none;
+                }
+                
+            }
+            .dropdown-toggle::after {
+                display: none;
+            }
+
+            .dropdown-menu{
+                z-index: 5;
+            }
+        }
+    }
+    
+  }

@@ -1,0 +1,23 @@
+/* =============   Footer	============= */
+
+.footer {
+	height: 40px;
+	bottom: 0px;
+	left: 0;
+	line-height: 40px;
+	position: fixed;
+	padding: 0px 15px;
+	width: 100%;
+	background-color: #fbfbfb;
+	border-top: 1px solid #e1e8ed;
+	font-size:14px;
+	margin-left:240px;
+
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.nav-collapsed .footer{
+	margin-left:60px;
+}

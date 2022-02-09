@@ -1,0 +1,79 @@
+[
+  {
+    "groupname": " ",
+    "id": 1,
+    "uuid": "433b8a76-88c5-11ea-bc55-0242ac1564787485730003",
+    "children": [
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Dashboard ",
+        "icon": "fa fa-home",
+        "to": "/doctor/dashboard",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Patient ",
+        "icon": "fa fa-user",
+        "to": "/doctor/patient",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Appointment History ",
+        "icon": "fa fa-calendar-check",
+        "to": "/doctor/apphistory",
+        "children": false
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Testimonial Review",
+        "icon": "fa fa-star",
+        "children": [
+          {
+            "uuid": "ad5e22fc-8937-11ea-bc55-0242ac130003",
+            "name": "Approved",
+            "icon": false,
+            "to": "/doctor/approvedtesti",
+            "children": false
+          },
+          {
+            "uuid": "ad5e22fc-8937-11ea-bc55-0242ac130003",
+            "name": "Pending",
+            "icon": false,
+            "to": "/doctor/pendingtesti",
+            "children": false
+          }
+        ]
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "Blog",
+        "icon": "fas fa-blog",
+        "children": [
+          {
+            "uuid": "ad5e22fc-8937-11ea-bc55-0242ac130003",
+            "name": "Blog List",
+            "icon": false,
+            "to": "/doctor/listblog",
+            "children": false
+          },
+          {
+            "uuid": "ad5e22fc-8937-11ea-bc55-0242ac130003",
+            "name": "Add Blog",
+            "icon": false,
+            "to": "/doctor/addblog",
+            "children": false
+          }
+        ]
+      },
+      {
+        "uuid": "433b8a76-88c5-11ea-bc55-0242ac130003",
+        "name": "QnA",
+        "icon": "fa fa-question-circle",
+        "to": "/doctor/qna",
+        "children": false
+      }
+    ]
+  }
+]

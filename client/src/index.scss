@@ -1,0 +1,80 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.css");
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-image: url(./assets/images/bg.png);
+  background-repeat: repeat;
+  background-size: 500px 500px;
+  padding-top: 0 !important;
+}
+.blue {
+  color: #4295f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* square buttons  */
+.rec.rec-arrow {
+  border-radius: 0;
+  color: aliceblue;
+  background-color: #4295f5 !important;
+}
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+.main-content {
+  // width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  //margin-top: 65px;
+  padding: 15px 15px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+
+  margin-left: 240px !important;
+  transition: all 0.5s ease;
+  background-repeat: repeat;
+
+  &.nav-collapsed {
+    margin-left: 60px !important;
+    height: 100%;
+    transition: all 0.5s ease;
+    background-repeat: repeat;
+  }
+}
+//@extend
+
+// icon
+@import "./assets/fontawesome-pro/css/all.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~simple-line-icons/css/simple-line-icons.css";
+@import "~weather-icons/css/weather-icons.css";
+
+// scss
+@import "./assets/scss/style.scss";
+
+///jvectormap
+@import "./assets/css/jvectormap";
+//ReactToastify
+@import "~react-toastify/dist/ReactToastify.css";

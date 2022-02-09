@@ -1,0 +1,249 @@
+.afcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .afform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 800px;
+    padding: 30px;
+    /* background-color: aqua; */
+  }
+  .afform h1 {
+    /* margin-bottom: 30px; */
+    padding: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 86.88%;
+  }
+  .appform {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 50px;
+    box-shadow: 0px 0px 53px rgba(0, 0, 0, 0.25);
+  }
+  
+  .appform h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 86.88%;
+    letter-spacing: 0.07em;
+    color: #560af7;
+    margin-bottom: 10px;
+  }
+  .oneblockapp {
+    width: 100%;
+    padding: 30px;
+    /* background-color: aqua; */
+  }
+  .twobloackapp {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+  }
+  
+  .twobloackapp select,
+  .twobloackapp input {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: normal;
+    border-bottom: 1px solid #000;
+  }
+  .twobloackapp select::placeholder,
+  .twobloackapp input::placeholder,
+  .oneblockapp input::placeholder {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 86.88%;
+    letter-spacing: 0.07em;
+    color: #000;
+  }
+  .twobloackapp select:focus,
+  .twobloackapp input:focus,
+  .oneblockapp input:focus {
+    border-bottom: 1px solid #000;
+    outline: none;
+  }
+  .oneblockapp {
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .oneblockapp input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  
+  .appform button {
+    width: 335px;
+    height: 62px;
+    border: none;
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    background: #560af6;
+    box-shadow: 0px 0px 8px 1px rgba(66, 149, 245, 0.9);
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .afcontainer {
+      padding: 30px;
+    }
+  
+    .afform {
+      width: 800px;
+      height: 100%;
+      padding: 20px;
+    }
+    .afform h1 {
+      padding: 30px;
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 86.88%;
+    }
+    .appform {
+      width: 700px;
+      height: 100%;
+      padding: 40px;
+    }
+  
+    .appform h3 {
+      font-size: 32px;
+    }
+  
+    .twobloackapp {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .twobloackapp select,
+    .twobloackapp input {
+      width: 270px;
+      padding: 3px;
+  
+      font-size: 20px;
+    }
+    ::placeholder {
+      font-size: 20px;
+      line-height: 80%;
+    }
+  
+    .oneblockapp {
+      width: 100%;
+      padding: 30px;
+    }
+  
+    .oneblockapp input {
+      padding: 3px;
+      font-size: 20px;
+    }
+  
+    .appform button {
+      width: 300px;
+      height: 52px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .afcontainer {
+      padding: 30px;
+    }
+  
+    .afform {
+      width: 600px;
+      height: 100%;
+      padding: 10px;
+    }
+    .afform h1 {
+      padding: 10px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 86.88%;
+      margin-bottom: 20px;
+    }
+    .appform {
+      width: 350px;
+      height: 100%;
+      padding: 30px;
+    }
+  
+    .appform h3 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+  
+    .twobloackapp {
+      width: 100%;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .twobloackapp select,
+    .twobloackapp input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    ::placeholder {
+      font-size: 16px;
+      line-height: 80%;
+    }
+  
+    .oneblockapp {
+      width: 100%;
+      padding: 0px;
+    }
+  
+    .oneblockapp input {
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .appform button {
+      width: 200px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+  

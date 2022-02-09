@@ -1,0 +1,165 @@
+.appointcontent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  /* background-color: black; */
+}
+
+.appointbar {
+  width: 1353px;
+  height: 230px;
+  background: #560af7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointdetails {
+  width: 70%;
+  /* background-color: aqua; */
+}
+.appointdetails h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.appointdetails h5 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.appointbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.appointbtn button {
+  width: 250px;
+  height: 40px;
+  border: none;
+  background: #f1db15;
+  border-radius: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  text-decoration: none;
+}
+.appointbtn button i {
+  padding: 10px;
+}
+.appointbtn h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  padding: 5px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .appointbar {
+    width: 650px;
+    height: 200px;
+    padding: 30px;
+  }
+
+  .appointdetails {
+    width: 65%;
+  }
+  .appointdetails h2 {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .appointdetails h5 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+
+  .appointbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .appointbtn button {
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+
+    cursor: pointer;
+  }
+  .appointbtn button i {
+    padding: 3px;
+  }
+  .appointbtn h2 {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .appointbar {
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+    flex-direction: column;
+  }
+  .appointdetails {
+    width: 100%;
+    flex-direction: column;
+  }
+  .appointdetails h2 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .appointdetails h5 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  .appointbtn button {
+    width: 130px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  .appointbtn button i {
+    padding: 3px;
+  }
+  .appointbtn h2 {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 1px;
+  }
+}
